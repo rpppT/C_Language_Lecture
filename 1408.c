@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 
-//함수 포인터를 쓸 때 자료형을 괄호롤 묶으면 다른 게 됨ㅓ
 void encrypt(char (*p_buf)[20] , int * len)
 {
   int ascii_value = 0;
@@ -24,14 +23,6 @@ int main(void)
   char buf[20];
   int i;
 
-/*  fgets(buf, 20, stdin);
-  for(i =0 ; i < 20; i++){
-    if(buf[i] == ' ')
-      return 0;
-    if(buf[i] == 0)
-      break;
-  }
-  */
   scanf("%s", buf);
   i = 0;
 
