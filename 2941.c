@@ -63,7 +63,6 @@ int search(char * p_buf){
 
 int main(){
 	char buf[100] = {0,};
-	int len = sizeof(buf) / sizeof(char);
 
 	fgets(buf, 100, stdin);
 
