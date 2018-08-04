@@ -1,4 +1,4 @@
-package 알고리즘;
+
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -38,7 +38,6 @@ public class Main {
 		  System.out.print(new ArrayList<>(set_1).get(i)+" ");
 	}	
 	public static void main(String[] args) {
-		System.out.println();
 		new Main();
 	}
 }
